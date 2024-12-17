@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect 4 Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo1.png" alt="Connect 4 Logo" id="logo">
+  </header>
+  <div class="animated-background"></div>
+  <div id="player-option">
+    <button id="player-opt" class="choice">
+      <img src="player-opt.png" alt="2 Players">
+    </button>
+    <button id="ai-opt" class="choice">
+      <img src="ai-opt.png" alt="Vs AI">
+    </button>
+  </div>
+  <div id="option">
+    <div id="yellowc"></div>
+    <div id="text">Choose Your Color</div>
+    <div id="bluec"></div>
+  </div>
+
+  <div id="board-container">
+  <button id="blue-side-button" class="side-button">
+    <img src="b-button.png" alt="Blue Button" />
+  </button>
+  <img src="connect4 board.png" alt="Connect 4 Board" id="game-board">
+  <button id="yellow-side-button" class="side-button">
+    <img src="y-button.png" alt="Yellow Button" />
+  </button>
+  </div>
+  <div id="board"></div>  
+  <div id="status"></div> 
+<button id="exit-button" style="display:none;">Back to Home</button>
+
+  <audio id="background-music" autoplay loop>
+    <source src="Gravity Falls opening theme FULL.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
